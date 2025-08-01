@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    color: white;
+}
+
+Html,Body{
+    height: 100%;
+    width: 100%;
+}
+
+.maincontainer{
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+     border-bottom: 1px solid white;
+}
+
+
+
+.secondmain{
+    height:90%;
+    width: 100%;
+    background-color: rgb(181, 149, 149);
+    display: flex;
+
+}
+
+
+.image{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.text{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+
+}
+
+.text h1{
+    font-size: 70px;
+    text-align: start;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.text p{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+.text button{
+    margin-left: 40px;
+    background-color:white;
+    color: black;
+    border: none;
+    width: 100px;
+    height: 30px;
+    
+}
+
+.text h4{
+    margin-left: 250px;
+    height: 40px;
+    
+}
